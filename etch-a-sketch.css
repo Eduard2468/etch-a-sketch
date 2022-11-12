@@ -1,8 +1,11 @@
 .square {
     height: 30px;
     width: 30px;
+    background-color: pink;
+    border: 1px solid black;
+    display: inline-flex;
 }
 #container {
-    display: flex;
-    width: 120px;
+    max-width: 512px;
+    height: 512px;
 }
